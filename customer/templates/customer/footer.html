@@ -1,0 +1,15 @@
+{% load static %}
+<footer class="page-footer font-small green fixed-bottom">
+  <div class="footer-copyright text-center py-3">
+    &copy; 2022 Copyright:
+    <a href="http://localhost:8000">project1823</a>
+    <a class="ml-3" href="{% url 'dashboard' %}"><b> Restaurant Login</b></a>
+    <img src="{% static 'images\moon.png' %}" id="icon" />
+  </div>
+  <style>
+    #icon {
+      width: 20px;
+      cursor: pointer;
+    }
+  </style>
+</footer>
